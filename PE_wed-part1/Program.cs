@@ -8,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddSingleton(builder.Configuration);
 
+var s = builder.Configuration.GetConnectionString("PE_PRN221");
 builder.Services.AddDbContext<PePrn221Context>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("PE_PRN221"))
 );

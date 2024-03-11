@@ -10,7 +10,13 @@ namespace PE_wed_part1.Pages.Students
     {
         public List<Major> majors;
         public List<Student> students;
-        private readonly PePrn221Context context = new PePrn221Context();
+        private readonly PePrn221Context context;
+
+        public ListModel(PePrn221Context context)
+        {
+            this.context = context;
+        }
+
         public void OnGet()
         {
             majors = context.Majors.ToList();

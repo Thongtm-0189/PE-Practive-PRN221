@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE-WPF-part1", "PE-WPF-part1\PE-WPF-part1.csproj", "{D1110349-2899-43FF-954C-8874299841D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PE-WPF-part1", "PE-WPF-part1\PE-WPF-part1.csproj", "{D1110349-2899-43FF-954C-8874299841D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE_wed-part1", "PE_wed-part1\PE_wed-part1.csproj", "{BE082981-2DB2-424C-9DF8-0B439E1183AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PE_wed-part1", "PE_wed-part1\PE_wed-part1.csproj", "{BE082981-2DB2-424C-9DF8-0B439E1183AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf-pe-part2", "Wpf-pe-part2\Wpf-pe-part2.csproj", "{41A1BAB7-1D9B-4D2A-925A-B16E2ECC496E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BE082981-2DB2-424C-9DF8-0B439E1183AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE082981-2DB2-424C-9DF8-0B439E1183AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE082981-2DB2-424C-9DF8-0B439E1183AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41A1BAB7-1D9B-4D2A-925A-B16E2ECC496E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41A1BAB7-1D9B-4D2A-925A-B16E2ECC496E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41A1BAB7-1D9B-4D2A-925A-B16E2ECC496E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41A1BAB7-1D9B-4D2A-925A-B16E2ECC496E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
